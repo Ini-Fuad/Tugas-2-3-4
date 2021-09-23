@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: "Calibri";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bi{
+    margin-right: 5px;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.7);
+    position: absolute;
+    top: 0;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.logo{
+    font-size: 30px;
+    color: azure;
+    padding: 15px 0px;
+    float: left;
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40729d8e-0975-468d-90ce-2261f44c2c7a/da0xw7m-923ebc51-eefe-434a-9884-643ea76b9da2.png/v1/fill/w_900,h_507,q_80,strp/sket_dance__switch_wallpaper_by_rendracula_da0xw7m-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvNDA3MjlkOGUtMDk3NS00NjhkLTkwY2UtMjI2MWY0NGMyYzdhXC9kYTB4dzdtLTkyM2ViYzUxLWVlZmUtNDM0YS05ODg0LTY0M2VhNzZiOWRhMi5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.W6EfVFlPD68BjVcID2KJybJUYKv11QeIJhKFYl5tioA);
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 24px;
+}
+
+.message-wrapper{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    
+}
+
+.message{
+    background-color: #5dca88;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.heading h3{
+    font-weight: normal;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+.btn-wrapper{
+    margin: 20px 0;
+}
+
+.btn-wrapper p{
+    margin: 10px 0;
+}
+
+.lesson-wrapper{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2{
+    font-weight: normal;
+}
+
+.lesson{
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon{
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+}
+
+.txt-content{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+footer img{
+    width: 125px;
+}
+
+footer p{
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer{
+    padding-top: 30px;
+}
